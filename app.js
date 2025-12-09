@@ -16,7 +16,7 @@ const reviewRouter = require("./router/reviews.js");
 const userRouter = require("./router/user.js");
 require("dotenv").config();
 
-const PORT =  3000;
+const PORT = process.env.PORT || 3000;
 main().then(() => {
     console.log("database is connected")
 })
