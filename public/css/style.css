@@ -1,0 +1,78 @@
+ body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+} 
+.container{
+    flex: 1;
+}
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+.fa-compass{
+    color: #fe424d;
+    font-size: 3rem;
+}
+.nav-link{
+    color:#222222 !important;
+}
+
+/*footer*/
+.f-info a{
+    text-decoration: none;
+    color: #222222;
+}
+.f-info{
+    text-align: center;
+    height: 8rem;
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.f-info-copy{
+    width: 100%;
+}
+.f-info-socels{
+    width: 100%;
+    font-size: 1.8rem;
+}
+.f-info-socels i {
+    font-size: 1.8rem;
+    margin-left: 1rem;
+}
+.f-ifo-links{
+    width: 100%;
+}
+.f-info a:hover{
+    text-decoration: underline; 
+}
+
+/*card*/
+.card{
+    border: none !important;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width:100% !important;
+    object-fit:cover !important;
+}
+.card-body{
+    padding: 0 !important;
+}
+.card-text p {
+    font-weight: 400;
+}
+.listing-img{
+    height: 200px;           
+    object-fit: cover;       
+    width: 100%; 
+}
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.3;
+    background-color: white;
+}
